@@ -28,7 +28,7 @@ logging.info(f"SAVE_FILE_DIR_PATH: {SAVE_FILE_DIR_PATH}")
 logging.info(f"SAVE_FILE_PATH: {SAVE_FILE_PATH}")
 
 # http://localhost:3000/
-# docker run -it -p 3000:3000 -v D:\Storage:/app/Storage  amarakheo/simple-web-app
+# docker run -itd -p 3000:3000 -v D:\Storage:/app/Storage  amarakheo/simple-web-app
 
 
 class UDPHandler:
