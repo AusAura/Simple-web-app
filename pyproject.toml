@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "simple-web-app"
+version = "0.1"
+description = "A simple web app that saves data from html form to json file."
+authors = ["AusAura <91804331+AusAura@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+http = "^0.2"
+pathlib = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
